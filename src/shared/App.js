@@ -1,9 +1,10 @@
-import React, { Component } from "react";
+import React from "react"
+import { Grid } from "./Grid"
 
-class App extends Component {
-  render() {
-    return <div>Hey {this.props.data}</div>;
-  }
+export function App({ data }) {
+  return (
+    <div>
+      <Grid data={data} />
+    </div>
+  )
 }
-
-export default App;
