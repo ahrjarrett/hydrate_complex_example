@@ -24,7 +24,8 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
-    "serialize-javascript": "^2.1.0"
+    "serialize-javascript": "^2.1.0",
+    "use-react-router": "^1.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
